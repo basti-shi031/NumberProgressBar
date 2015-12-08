@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleProgressBar">
+
+        <!--字体-->
+        <attr name="circle_textSize" format="dimension"/>
+        <attr name="circle_textColor" format="color"/>
+
+        <!--背景色-->
+        <attr name="circle_backgroundColor" format="color"/>
+        <!--圈的宽度-->
+        <attr name="circle_strokeWidth" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="LineProgressBar">
+
+        <!--字体-->
+        <attr name="line_textSize" format="dimension"/>
+        <attr name="line_textColor" format="color"/>
+
+        <!--背景色-->
+        <attr name="line_backgroundColor" format="color"/>
+        <!--圈的宽度-->
+        <attr name="line_strokeWidth" format="integer"/>
+
+    </declare-styleable>
+
+</resources>
